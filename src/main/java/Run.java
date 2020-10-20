@@ -7,7 +7,6 @@ public class Run {
     public static void main(String[] args) {
 Scanner input = new Scanner(System.in);
 
-
         System.out.print("Enter Something: ");
         String response = input.nextLine();
         System.out.printf("You Entered: %s\n", response);
@@ -19,7 +18,4 @@ Scanner input = new Scanner(System.in);
         System.out.printf("Flipped Case: %s\n",StringUtils.swapCase(response));
         System.out.printf("Reversed: %s\n", StringUtils.reverse(response));
         }
-
-
-
 }
